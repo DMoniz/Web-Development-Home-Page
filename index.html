@@ -59,6 +59,7 @@ margin-left: 260px;
   float: right;
   position: relative;
   right: 100px;
+  outline: black;
 
 
 
@@ -76,18 +77,21 @@ margin-left: 260px;
   width: 200px;
   height: 300px;
   background-color: #f44336;
+  outline: black;
 }
 
 .lastdonationleft:hover {
 
   background-color: black;
   color: #f44336;
+  outline: white;
 }
 
 .lastdonationright:hover {
 
   background-color:black
   color: #f44336;
+  outline: white;
 }
 
 .graphanalysisposition {
@@ -1252,7 +1256,7 @@ function sayhi() {
 var textObj = document.getElementById("myinput");
 var divObj = document.getElementById("mycontent");
 
-var data = [{continent: "africa", total: 152721},{continent: "Africa", total: 152721},{continent: "north america", total: 1202235},{continent: "North America", total: 1202235}];
+var data = [];
 
 for (i = 0; i < data.length; i++) {
 if (data[i]['continent'] == textObj.value) {
